@@ -1,0 +1,36 @@
+.wound-image-container {
+  background: url("../assets/images/wound.png") no-repeat;
+  background-size: contain;
+  max-height: 890px;
+  width: 500px;
+  height: 100%;
+}
+
+.wrapper {
+  width: 500px;
+  height: 100vh;
+}
+
+.dots-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.dots-container {
+  width: 500px;
+  height: 100%;
+  max-height: 890px;
+
+  position: absolute;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
